@@ -1,0 +1,15 @@
+# Secrets: the API key lives only in GitHub Actions secrets or your shell
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Half-written raw files from an interrupted run
+data/raw/*.tmp
+
+# Local DuckDB files (Stage 2)
+*.duckdb
+*.duckdb.wal
