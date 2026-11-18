@@ -46,3 +46,8 @@ jobs:
             git commit -m "data: raw stats for $(date -u +%F)"
             git push
           fi
+
+      # Runs after the raw commit on purpose: if a check fails, today's raw
+      # file is already saved and nothing is lost.
+      - name: Transform and check
+        run: python pipeline/transform.py
