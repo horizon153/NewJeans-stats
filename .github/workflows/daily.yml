@@ -8,7 +8,7 @@ on:
   workflow_dispatch: {}   # "Run workflow" button for manual runs
 
 permissions:
-  contents: write         # needed to commit the new raw file
+  contents: write         # needed to commit the raw file and the site data
 
 concurrency:
   group: daily-stats      # never let two runs write at once
@@ -51,3 +51,16 @@ jobs:
       # file is already saved and nothing is lost.
       - name: Transform and check
         run: python pipeline/transform.py
+
+      - name: Export stats.json and stats.js
+        run: python pipeline/export.py
+
+      - name: Commit site data
+        run: |
+          git add data/output/
+          if git diff --cached --quiet; then
+            echo "Site data unchanged."
+          else
+            git commit -m "data: site stats for $(date -u +%F)"
+            git push
+          fi
