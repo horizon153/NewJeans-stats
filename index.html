@@ -508,6 +508,12 @@ body {
 .nav-link:hover { color: rgba(244,242,238,0.82); }
 .nav-link:hover::after, .nav-link.nav-active::after { transform: scaleX(1); }
 .nav-link.nav-active { color: rgba(244,242,238,0.88); }
+@media (max-width: 520px) {
+  .site-nav { padding: 0 1rem; }
+  .nav-logo { font-size: 0.95rem; margin-right: 1rem; }
+  .nav-links { gap: 1.05rem; }
+  .nav-link { font-size: 0.56rem; letter-spacing: 0.14em; }
+}
 
 /* ── RANDOM TRACK BUTTON ── */
 .random-btn {
@@ -678,6 +684,120 @@ body.is-loading { overflow: hidden; }
   .hero.hero-entering { animation: none; }
 }
 
+
+/* ── STATS SECTION ── */
+.stats-section { background: #08080A; padding: 6rem 1.5rem 7rem; }
+.stats-inner { max-width: 1100px; margin: 0 auto; }
+.st-summary {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.4rem;
+  font-size: 0.72rem; letter-spacing: 0.06em; color: #8A8A96; margin: -1.6rem 0 2rem;
+}
+.st-summary b { color: #F4F2EE; font-weight: 600; }
+.st-check { display: inline-flex; align-items: center; gap: 0.45rem; }
+.st-check-dot { width: 7px; height: 7px; border-radius: 50%; background: #3FB27F; }
+.st-check.st-has-warn .st-check-dot { background: #E0A63A; }
+.st-warnings { margin: -1.2rem 0 2rem; font-size: 0.74rem; color: #B8B8C2; line-height: 1.7; }
+.st-warnings li { list-style: none; padding-left: 1rem; position: relative; }
+.st-warnings li::before { content: '!'; position: absolute; left: 0; color: #E0A63A; font-weight: 700; }
+
+.st-card {
+  background: #0D0D12; border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 20px; padding: 1.6rem 1.6rem 1.2rem;
+}
+.st-card + .st-card { margin-top: 1.25rem; }
+.st-card-head {
+  display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between;
+  gap: 1rem 1.5rem; margin-bottom: 1.3rem;
+}
+.st-title { font-family: 'Syne', sans-serif; font-size: 1.25rem; font-weight: 800; color: #F4F2EE; }
+.st-sub { font-size: 0.74rem; color: #8A8A96; margin-top: 0.3rem; line-height: 1.5; }
+
+.st-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 0.7rem; }
+.st-toggle { display: inline-flex; border: 1px solid rgba(255,255,255,0.12); border-radius: 100px; padding: 3px; }
+.st-toggle button {
+  background: none; border: none; border-radius: 100px; cursor: pointer;
+  padding: 0.42rem 0.95rem; color: #8A8A96;
+  font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 0.68rem; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase; transition: background 0.2s, color 0.2s;
+}
+.st-toggle button:hover { color: #F4F2EE; }
+.st-toggle button[aria-pressed="true"] { background: rgba(255,255,255,0.1); color: #F4F2EE; }
+.st-toggle button:disabled { opacity: 0.35; cursor: not-allowed; }
+.st-select-wrap { position: relative; display: inline-flex; align-items: center; }
+.st-select-wrap label { font-size: 0.62rem; letter-spacing: 0.22em; text-transform: uppercase; color: #8A8A96; margin-right: 0.55rem; }
+.st-select {
+  appearance: none; -webkit-appearance: none;
+  background: #14141B; color: #F4F2EE; border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 100px; padding: 0.45rem 2rem 0.45rem 0.95rem; cursor: pointer;
+  font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 0.76rem; font-weight: 500;
+}
+.st-select-wrap::after {
+  content: ''; position: absolute; right: 0.85rem; top: 50%; width: 6px; height: 6px;
+  border-right: 1.5px solid #8A8A96; border-bottom: 1.5px solid #8A8A96;
+  transform: translateY(-70%) rotate(45deg); pointer-events: none;
+}
+.st-select:focus-visible, .st-toggle button:focus-visible, .st-plot:focus-visible {
+  outline: 2px solid #9C8CEB; outline-offset: 2px;
+}
+
+.st-legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1.3rem; font-size: 0.72rem; color: #B8B8C2; margin-bottom: 0.6rem; }
+.st-legend span { display: inline-flex; align-items: center; gap: 0.5rem; }
+.st-key { display: inline-block; width: 16px; height: 2px; border-radius: 1px; }
+
+.st-chart { position: relative; }
+.st-plot { display: block; width: 100%; touch-action: pan-y; }
+.st-plot text { font-family: 'Space Grotesk', system-ui, sans-serif; }
+.st-note {
+  font-size: 0.74rem; line-height: 1.6; color: #B8B8C2;
+  background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 10px; padding: 0.6rem 0.9rem; margin-bottom: 0.8rem;
+}
+.st-tip {
+  position: absolute; top: 8px; z-index: 5; min-width: 190px; pointer-events: none;
+  background: #16161E; border: 1px solid rgba(255,255,255,0.1); border-radius: 12px;
+  padding: 0.65rem 0.8rem; box-shadow: 0 16px 32px rgba(0,0,0,0.5);
+  font-size: 0.72rem; color: #B8B8C2; opacity: 0; transition: opacity 0.12s;
+}
+.st-tip.st-show { opacity: 1; }
+.st-tip-date { font-size: 0.6rem; letter-spacing: 0.22em; text-transform: uppercase; color: #8A8A96; margin-bottom: 0.45rem; }
+.st-tip-row { display: grid; grid-template-columns: 14px auto 1fr; align-items: center; gap: 0.5rem; line-height: 1.75; }
+.st-tip-row .st-key { width: 12px; }
+.st-tip-val { color: #F4F2EE; font-weight: 600; font-variant-numeric: tabular-nums; text-align: right; }
+.st-tip-row.st-hl .st-tip-name { color: #F4F2EE; }
+
+.st-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+.st-table th {
+  text-align: left; font-size: 0.58rem; font-weight: 600; letter-spacing: 0.3em; text-transform: uppercase;
+  color: #8A8A96; padding: 0 0.8rem 0.7rem; border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.st-table td { padding: 0.72rem 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.05); color: #D8D6D2; }
+.st-table tr:last-child td { border-bottom: none; }
+.st-table .st-num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.st-table .st-rank { color: #8A8A96; width: 2.2rem; font-variant-numeric: tabular-nums; }
+.st-date { white-space: nowrap; }
+.st-mv { display: inline-flex; align-items: center; gap: 0.6rem; color: #F4F2EE; font-weight: 500; }
+.st-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.st-empty td { text-align: center; color: #8A8A96; padding: 2rem 1rem; line-height: 1.6; }
+.st-gain-pos { color: #F4F2EE; }
+.st-gain-neg { color: #E0A63A; }
+.st-details summary {
+  cursor: pointer; list-style: none; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.2em;
+  text-transform: uppercase; color: #8A8A96; padding: 0.4rem 0; display: inline-flex; gap: 0.6rem; align-items: center;
+}
+.st-details summary::-webkit-details-marker { display: none; }
+.st-details summary::before { content: '+'; font-size: 0.95rem; color: #B8B8C2; }
+.st-details[open] summary::before { content: '\2013'; }
+.st-details summary:hover { color: #F4F2EE; }
+.st-details .st-table { margin-top: 1rem; }
+.st-table-scroll { overflow-x: auto; }
+
+@media (max-width: 640px) {
+  .stats-section { padding: 4.5rem 1rem 5rem; }
+  .st-card { padding: 1.2rem 1rem 1rem; border-radius: 16px; }
+  .st-hide-sm { display: none; }
+  .st-table td, .st-table th { padding-left: 0.45rem; padding-right: 0.45rem; }
+}
+
 /* ── YOUTUBE MODAL ── */
 .yt-modal-overlay {
   display: none; position: fixed; inset: 0;
@@ -733,6 +853,7 @@ footer { text-align: center; padding: 3rem; font-size: 0.62rem; letter-spacing: 
   <ul class="nav-links">
     <li><a href="#discography" class="nav-link">Discography</a></li>
     <li><a href="#members" class="nav-link">Members</a></li>
+    <li><a href="#stats" class="nav-link">Stats</a></li>
   </ul>
 </nav>
 
@@ -878,6 +999,79 @@ footer { text-align: center; padding: 3rem; font-size: 0.62rem; letter-spacing: 
 </section>
 
 
+<!-- ═══════════ STATS ═══════════ -->
+<section id="stats" class="stats-section">
+  <div class="stats-inner">
+
+    <div class="section-header reveal">
+      <span class="section-label">MV Stats</span>
+      <div class="section-rule"></div>
+      <span class="section-label" id="st-updated">YouTube · daily</span>
+    </div>
+
+    <div class="st-summary reveal" id="st-summary"></div>
+    <ul class="st-warnings" id="st-warnings" hidden></ul>
+
+    <div class="st-card reveal reveal-d1">
+      <div class="st-card-head">
+        <div>
+          <h3 class="st-title">Views over time</h3>
+          <p class="st-sub" id="st-chart-sub"></p>
+        </div>
+        <div class="st-controls">
+          <div class="st-toggle" role="group" aria-label="Measure">
+            <button type="button" data-mode="gained" aria-pressed="true">Views gained</button>
+            <button type="button" data-mode="total" aria-pressed="false">Total views</button>
+          </div>
+          <div class="st-select-wrap">
+            <label for="st-highlight">Highlight</label>
+            <select id="st-highlight" class="st-select"></select>
+          </div>
+        </div>
+      </div>
+      <div class="st-legend" id="st-legend"></div>
+      <div class="st-note" id="st-note" hidden></div>
+      <div class="st-chart" id="st-chart">
+        <svg class="st-plot" id="st-plot" tabindex="0" role="img" aria-describedby="st-chart-sub"></svg>
+        <div class="st-tip" id="st-tip" aria-hidden="true"></div>
+      </div>
+      <details class="st-details">
+        <summary>All MVs as a table</summary>
+        <div class="st-table-scroll">
+          <table class="st-table" id="st-all-table">
+            <thead><tr>
+              <th>MV</th><th class="st-hide-sm">Era</th>
+              <th class="st-num">Total views</th><th class="st-num st-hide-sm">Likes</th>
+              <th class="st-num st-hide-sm">Comments</th><th class="st-num">Gained</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </details>
+    </div>
+
+    <div class="st-card reveal reveal-d2">
+      <div class="st-card-head">
+        <div>
+          <h3 class="st-title">Top daily gains</h3>
+          <p class="st-sub">The 10 biggest one-day view increases since tracking began.</p>
+        </div>
+      </div>
+      <div class="st-table-scroll">
+        <table class="st-table" id="st-gains-table">
+          <thead><tr>
+            <th class="st-rank">#</th><th>MV</th><th class="st-hide-sm">Era</th>
+            <th>Date</th><th class="st-num">Views gained</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
 <footer class="site-footer">
   <div class="footer-era-stripe">
     <div class="era-color" style="background:#B87055;"></div>
@@ -916,6 +1110,7 @@ footer { text-align: center; padding: 3rem; font-size: 0.62rem; letter-spacing: 
 </div>
 
 
+<script src="data/output/stats.js"></script>
 <script>
 /* ─── YOUTUBE MODAL ─────────────────────────────────── */
 function openYt(id) {
@@ -1195,7 +1390,7 @@ function pickRandomTrack() {
 (function () {
   var navEl    = document.getElementById('site-nav');
   var lastY    = 0;
-  var sections = ['home', 'discography', 'members'];
+  var sections = ['home', 'discography', 'members', 'stats'];
 
   window.addEventListener('scroll', function () {
     var y = window.scrollY;
@@ -1309,6 +1504,390 @@ function pickRandomTrack() {
   setTimeout(function () {
     if (!finished) { finished = true; clearInterval(ticker); finish(); }
   }, 6000);
+}());
+
+
+/* ─── STATS SECTION ─────────────────────────────────── */
+/* Reads window.STATS from data/output/stats.js, written daily by the pipeline. */
+(function () {
+  var root = document.getElementById('stats');
+  if (!root) return;
+  var S = window.STATS;
+  var SVGNS = 'http://www.w3.org/2000/svg';
+
+  var ERA_COLOR = {
+    'New Jeans': '#D58B6C', 'OMG': '#5E93E6', 'Get Up': '#F26C3E',
+    'How Sweet': '#E57DAA', 'Supernatural': '#9C8CEB'
+  };
+  var CONTEXT = '#3A3A44', GRID = '#1C1C24', AXIS_TEXT = '#8A8A96';
+
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function svg(tag, attrs) {
+    var e = document.createElementNS(SVGNS, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    return e;
+  }
+  function fmtFull(n) { return n == null ? '—' : Math.round(n).toLocaleString('en-US'); }
+  function fmtSigned(n) { return n == null ? '—' : (n > 0 ? '+' : n < 0 ? '−' : '') + fmtFull(Math.abs(n)); }
+  function fmtCompact(n) {
+    var a = Math.abs(n), s = n < 0 ? '−' : '';
+    if (a >= 1e9) return s + trim(a / 1e9) + 'B';
+    if (a >= 1e6) return s + trim(a / 1e6) + 'M';
+    if (a >= 1e3) return s + trim(a / 1e3) + 'K';
+    return s + Math.round(a);
+  }
+  function trim(x) {
+    var s = x >= 100 ? x.toFixed(0) : x >= 10 ? x.toFixed(1) : x.toFixed(2);
+    return s.indexOf('.') < 0 ? s : s.replace(/0+$/, '').replace(/\.$/, '');   /* 2.50 -> 2.5, but 300 stays 300 */
+  }
+  var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  function fmtDate(d, withYear) {
+    var p = d.split('-');
+    return (+p[2]) + ' ' + MONTHS[+p[1] - 1] + (withYear ? ' ' + p[0] : '');
+  }
+
+  /* ── No data yet ── */
+  var summary = document.getElementById('st-summary');
+  if (!S || !S.dates || !S.dates.length) {
+    summary.appendChild(el('span', null, 'No stats yet. They appear after the pipeline’s first run.'));
+    root.querySelectorAll('.st-card').forEach(function (c) { c.hidden = true; });
+    return;
+  }
+
+  var dates = S.dates;
+  var videos = S.videos;
+  var byId = {};
+  videos.forEach(function (v) { byId[v.video_id] = v; });
+  var latest = {};
+  (S.latest || []).forEach(function (r) { latest[r.video_id] = r; });
+  var multiDay = S.capture_days >= 2;
+
+  /* Gained-since-tracking-began per video: views minus its first captured value */
+  function seriesFor(id, mode) {
+    var raw = S.views[id] || [];
+    if (mode === 'total') return raw.slice();
+    var base = null;
+    for (var i = 0; i < raw.length; i++) if (raw[i] != null) { base = raw[i]; break; }
+    return raw.map(function (v) { return v == null || base == null ? null : v - base; });
+  }
+  function lastValue(arr) {
+    for (var i = arr.length - 1; i >= 0; i--) if (arr[i] != null) return { i: i, v: arr[i] };
+    return null;
+  }
+
+  /* ── Summary line and check results ── */
+  document.getElementById('st-updated').textContent = 'Updated ' + fmtDate(S.last_date, true);
+  function chip(label, value) {
+    var s = el('span'); s.appendChild(el('b', null, value)); s.appendChild(document.createTextNode(' ' + label)); return s;
+  }
+  summary.appendChild(chip('MVs tracked', String(videos.length)));
+  summary.appendChild(chip(S.capture_days === 1 ? 'day captured' : 'days captured', String(S.capture_days)));
+  summary.appendChild(el('span', null, 'since ' + fmtDate(S.first_date, true)));
+  var checks = S.checks || [];
+  var warns = checks.filter(function (c) { return c.status !== 'pass'; });
+  var checkEl = el('span', 'st-check' + (warns.length ? ' st-has-warn' : ''));
+  checkEl.appendChild(el('span', 'st-check-dot'));
+  checkEl.appendChild(document.createTextNode(
+    warns.length ? warns.length + ' of ' + checks.length + ' data checks flagged something'
+                 : 'All ' + checks.length + ' data checks passed'));
+  summary.appendChild(checkEl);
+  if (warns.length) {
+    var ul = document.getElementById('st-warnings');
+    function n(count, one, many) { return count + ' ' + (count === 1 ? one : many); }
+    var WARN_TEXT = {
+      negative_daily_gain: function (c) { return 'Views went down ' + n(c.problem_count, 'time', 'times') + ' (YouTube removes fake views)'; },
+      missing_day: function (c) { return n(c.problem_count, 'day', 'days') + ' with no capture: ' + c.problems.map(function (p) { return fmtDate(p.date); }).join(', '); },
+      video_missing_from_snapshot: function (c) { return 'YouTube didn’t return a tracked video ' + n(c.problem_count, 'time', 'times') + ' (deleted, private or wrong ID)'; },
+      duplicate_video_date: function (c) { return n(c.problem_count, 'duplicate video/day row', 'duplicate video/day rows'); }
+    };
+    warns.forEach(function (c) {
+      ul.appendChild(el('li', null, (WARN_TEXT[c.name] || function () { return c.rule; })(c)));
+    });
+    ul.hidden = false;
+  }
+
+  /* ── State ── */
+  var ranked = videos.slice().sort(function (a, b) {
+    var la = latest[a.video_id], lb = latest[b.video_id];
+    var ga = la && la.daily_view_gain != null ? la.daily_view_gain : -Infinity;
+    var gb = lb && lb.daily_view_gain != null ? lb.daily_view_gain : -Infinity;
+    if (ga !== gb) return gb - ga;
+    return ((lb && lb.view_count) || 0) - ((la && la.view_count) || 0);
+  });
+  var state = { mode: multiDay ? 'gained' : 'total', hl: ranked[0].video_id, idx: null };
+
+  /* ── Controls ── */
+  var toggle = root.querySelectorAll('.st-toggle button');
+  toggle.forEach(function (b) {
+    if (b.dataset.mode === 'gained' && !multiDay) {
+      b.disabled = true;
+      b.title = 'Available from the second day of data';
+    }
+    b.addEventListener('click', function () { if (!b.disabled) { state.mode = b.dataset.mode; render(); } });
+  });
+  var select = document.getElementById('st-highlight');
+  Object.keys(ERA_COLOR).forEach(function (era) {
+    var group = document.createElement('optgroup');
+    group.label = era;
+    videos.filter(function (v) { return v.era === era; }).forEach(function (v) {
+      var o = el('option', null, v.song); o.value = v.video_id; group.appendChild(o);
+    });
+    if (group.children.length) select.appendChild(group);
+  });
+  select.value = state.hl;
+  select.addEventListener('change', function () { state.hl = select.value; render(); });
+
+  /* ── Chart ── */
+  var chartBox = document.getElementById('st-chart');
+  var plot = document.getElementById('st-plot');
+  var tip = document.getElementById('st-tip');
+  var note = document.getElementById('st-note');
+  var geom = null;
+
+  function niceStep(range, count) {
+    var raw = range / count, mag = Math.pow(10, Math.floor(Math.log10(raw))), f = raw / mag;
+    return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 2.5 ? 2.5 : f <= 5 ? 5 : 10) * mag;
+  }
+
+  function render() {
+    toggle.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.mode === state.mode)); });
+    var hlVideo = byId[state.hl];
+    var hlColor = ERA_COLOR[hlVideo.era] || '#F4F2EE';
+
+    document.getElementById('st-chart-sub').textContent = state.mode === 'gained'
+      ? 'Views each MV has gained since tracking began on ' + fmtDate(S.first_date, true) + '. Hover for every MV’s value; click a line to highlight it.'
+      : 'Total YouTube views for each MV. Hover for every MV’s value; click a line to highlight it.';
+
+    var legend = document.getElementById('st-legend');
+    legend.textContent = '';
+    var l1 = el('span'); var k1 = el('span', 'st-key'); k1.style.background = hlColor;
+    l1.appendChild(k1); l1.appendChild(document.createTextNode(hlVideo.song + ' (' + hlVideo.era + ')'));
+    var l2 = el('span'); var k2 = el('span', 'st-key'); k2.style.background = CONTEXT;
+    l2.appendChild(k2); l2.appendChild(document.createTextNode('Other MVs'));
+    legend.appendChild(l1); legend.appendChild(l2);
+
+    var W = Math.max(280, chartBox.clientWidth);
+    var narrow = W < 560;
+    var H = narrow ? 260 : 340;
+    var m = { top: 14, right: narrow ? 14 : 96, bottom: 30, left: narrow ? 44 : 58 };
+    var pw = W - m.left - m.right, ph = H - m.top - m.bottom;
+
+    var all = {};
+    var lo = 0, hi = 0;
+    videos.forEach(function (v) {
+      var s = seriesFor(v.video_id, state.mode);
+      all[v.video_id] = s;
+      s.forEach(function (x) { if (x != null) { if (x < lo) lo = x; if (x > hi) hi = x; } });
+    });
+    if (hi === lo) hi = lo + 1;
+    var step = niceStep(hi - lo, narrow ? 3 : 4);
+    var y0 = Math.floor(lo / step) * step, y1 = Math.ceil(hi / step) * step;
+    function X(i) { return dates.length === 1 ? m.left + pw / 2 : m.left + (i / (dates.length - 1)) * pw; }
+    function Y(v) { return m.top + ph - ((v - y0) / (y1 - y0)) * ph; }
+
+    plot.textContent = '';
+    plot.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    plot.setAttribute('width', W);
+    plot.setAttribute('height', H);
+    plot.setAttribute('aria-label', (state.mode === 'gained' ? 'Views gained' : 'Total views') +
+      ' per MV, ' + fmtDate(S.first_date, true) + ' to ' + fmtDate(S.last_date, true) +
+      '. Highlighted: ' + hlVideo.song + '. Use left and right arrow keys to read each day.');
+
+    /* gridlines + y ticks */
+    for (var t = y0; t <= y1 + step / 2; t += step) {
+      plot.appendChild(svg('line', { x1: m.left, x2: m.left + pw, y1: Y(t), y2: Y(t), stroke: GRID, 'stroke-width': 1 }));
+      var lab = svg('text', { x: m.left - 10, y: Y(t) + 4, 'text-anchor': 'end', fill: AXIS_TEXT, 'font-size': 11 });
+      lab.textContent = fmtCompact(t);
+      plot.appendChild(lab);
+    }
+    /* x ticks */
+    var maxTicks = narrow ? 4 : 7;
+    var every = Math.max(1, Math.ceil(dates.length / maxTicks));
+    dates.forEach(function (d, i) {
+      if (i % every !== 0 && i !== dates.length - 1) return;
+      if (i !== dates.length - 1 && dates.length - 1 - i < every * 0.6) return;   /* keep last label clear */
+      var tx = svg('text', { x: X(i), y: H - 8, 'text-anchor': dates.length === 1 ? 'middle' : (i === 0 ? 'start' : i === dates.length - 1 ? 'end' : 'middle'), fill: AXIS_TEXT, 'font-size': 11 });
+      tx.textContent = fmtDate(d);
+      plot.appendChild(tx);
+    });
+
+    /* lines: context first, highlighted last so it sits on top */
+    function pathFor(s) {
+      var d = '', pen = false;
+      s.forEach(function (v, i) {
+        if (v == null) { pen = false; return; }
+        d += (pen ? 'L' : 'M') + X(i).toFixed(1) + ' ' + Y(v).toFixed(1);
+        pen = true;
+      });
+      return d;
+    }
+    var order = videos.map(function (v) { return v.video_id; }).filter(function (id) { return id !== state.hl; });
+    order.push(state.hl);
+    order.forEach(function (id) {
+      var s = all[id], isHl = id === state.hl;
+      var color = isHl ? hlColor : CONTEXT;
+      var d = pathFor(s);
+      if (d && dates.length > 1) plot.appendChild(svg('path', { d: d, fill: 'none', stroke: color, 'stroke-width': isHl ? 2.5 : 1.5, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }));
+      /* points that have no neighbour (single day, or isolated by gaps) would be invisible as a line */
+      s.forEach(function (v, i) {
+        if (v == null) return;
+        var lonely = (i === 0 || s[i - 1] == null) && (i === s.length - 1 || s[i + 1] == null);
+        if (lonely) plot.appendChild(svg('circle', { cx: X(i), cy: Y(v), r: isHl ? 5 : 3.5, fill: color, stroke: '#0D0D12', 'stroke-width': 2 }));
+      });
+    });
+
+    /* direct label on the highlighted line's end (wide screens only) */
+    var end = lastValue(all[state.hl]);
+    if (end) {
+      plot.appendChild(svg('circle', { cx: X(end.i), cy: Y(end.v), r: 5, fill: hlColor, stroke: '#0D0D12', 'stroke-width': 2 }));
+      if (!narrow) {
+        var nm = svg('text', { x: X(end.i) + 10, y: Y(end.v) - 3, fill: '#F4F2EE', 'font-size': 12, 'font-weight': 600 });
+        nm.textContent = hlVideo.song;
+        var vl = svg('text', { x: X(end.i) + 10, y: Y(end.v) + 12, fill: AXIS_TEXT, 'font-size': 11 });
+        vl.textContent = (state.mode === 'gained' && end.v > 0 ? '+' : '') + fmtCompact(end.v);
+        plot.appendChild(nm); plot.appendChild(vl);
+      }
+    }
+
+    /* hover layer */
+    var cross = svg('line', { y1: m.top, y2: m.top + ph, stroke: 'rgba(244,242,238,0.35)', 'stroke-width': 1, visibility: 'hidden' });
+    var hoverDot = svg('circle', { r: 5, fill: hlColor, stroke: '#0D0D12', 'stroke-width': 2, visibility: 'hidden' });
+    plot.appendChild(cross);
+    plot.appendChild(hoverDot);
+    plot.appendChild(svg('rect', { x: m.left, y: m.top, width: pw, height: ph, fill: 'transparent', 'class': 'st-hit' }));
+    geom = { X: X, Y: Y, m: m, pw: pw, all: all, cross: cross, hoverDot: hoverDot, W: W };
+
+    note.hidden = multiDay;
+    if (!multiDay) note.textContent = 'One day captured so far. Trend lines start after the next daily capture (08:17 Singapore time).';
+    if (state.idx != null) showAt(state.idx);
+  }
+
+  function idxFromEvent(e) {
+    var r = plot.getBoundingClientRect();
+    var x = (e.clientX - r.left) * (geom.W / r.width);
+    if (dates.length === 1) return 0;
+    var i = Math.round((x - geom.m.left) / geom.pw * (dates.length - 1));
+    return Math.max(0, Math.min(dates.length - 1, i));
+  }
+
+  function showAt(i) {
+    state.idx = i;
+    var x = geom.X(i);
+    geom.cross.setAttribute('x1', x); geom.cross.setAttribute('x2', x);
+    geom.cross.setAttribute('visibility', 'visible');
+    var hv = geom.all[state.hl][i];
+    if (hv != null) {
+      geom.hoverDot.setAttribute('cx', x); geom.hoverDot.setAttribute('cy', geom.Y(hv));
+      geom.hoverDot.setAttribute('visibility', 'visible');
+    } else geom.hoverDot.setAttribute('visibility', 'hidden');
+
+    tip.textContent = '';
+    tip.appendChild(el('div', 'st-tip-date', fmtDate(dates[i], true) + (S.missing_days.indexOf(dates[i]) >= 0 ? ' · no capture' : '')));
+    var rows = videos.map(function (v) { return { v: v, val: geom.all[v.video_id][i] }; })
+      .sort(function (a, b) { return (b.val == null ? -Infinity : b.val) - (a.val == null ? -Infinity : a.val); });
+    rows.forEach(function (r) {
+      var isHl = r.v.video_id === state.hl;
+      var row = el('div', 'st-tip-row' + (isHl ? ' st-hl' : ''));
+      var key = el('span', 'st-key');
+      key.style.background = isHl ? (ERA_COLOR[r.v.era] || '#F4F2EE') : '#5A5A66';
+      row.appendChild(key);
+      row.appendChild(el('span', 'st-tip-val', r.val == null ? '—' : (state.mode === 'gained' ? fmtSigned(r.val) : fmtFull(r.val))));
+      row.appendChild(el('span', 'st-tip-name', r.v.song));
+      tip.appendChild(row);
+    });
+    tip.classList.add('st-show');
+    var r = plot.getBoundingClientRect();
+    var px = x * (r.width / geom.W);
+    var tw = tip.offsetWidth;
+    var left = px + 16;
+    if (left + tw > r.width) left = px - tw - 16;
+    tip.style.left = Math.max(0, left) + 'px';
+  }
+  function hide() {
+    state.idx = null;
+    tip.classList.remove('st-show');
+    if (geom) { geom.cross.setAttribute('visibility', 'hidden'); geom.hoverDot.setAttribute('visibility', 'hidden'); }
+  }
+
+  plot.addEventListener('pointermove', function (e) { showAt(idxFromEvent(e)); });
+  plot.addEventListener('pointerdown', function (e) { showAt(idxFromEvent(e)); });
+  plot.addEventListener('pointerleave', hide);
+  plot.addEventListener('blur', hide);
+  plot.addEventListener('click', function (e) {
+    /* pick the line closest to the pointer at that day */
+    var i = idxFromEvent(e), r = plot.getBoundingClientRect();
+    var y = (e.clientY - r.top) * (geom.W / r.width);
+    var best = null, bestD = 24;
+    videos.forEach(function (v) {
+      var val = geom.all[v.video_id][i];
+      if (val == null) return;
+      var dd = Math.abs(geom.Y(val) - y);
+      if (dd < bestD) { bestD = dd; best = v.video_id; }
+    });
+    if (best && best !== state.hl) { state.hl = best; select.value = best; render(); showAt(i); }
+  });
+  plot.addEventListener('keydown', function (e) {
+    var i = state.idx == null ? dates.length - 1 : state.idx;
+    if (e.key === 'ArrowLeft') { showAt(Math.max(0, i - 1)); e.preventDefault(); }
+    else if (e.key === 'ArrowRight') { showAt(Math.min(dates.length - 1, i + 1)); e.preventDefault(); }
+    else if (e.key === 'Escape') hide();
+  });
+  plot.addEventListener('focus', function () { showAt(dates.length - 1); });
+
+  var resizeTimer;
+  window.addEventListener('resize', function () { clearTimeout(resizeTimer); resizeTimer = setTimeout(render, 120); });
+
+  /* ── Tables ── */
+  function mvCell(v) {
+    var td = el('td'), wrap = el('span', 'st-mv'), dot = el('span', 'st-dot');
+    dot.style.background = ERA_COLOR[v.era] || '#F4F2EE';
+    wrap.appendChild(dot); wrap.appendChild(document.createTextNode(v.song));
+    td.appendChild(wrap); return td;
+  }
+  function emptyRow(tbody, cols, text) {
+    var tr = el('tr', 'st-empty'), td = el('td', null, text);
+    td.colSpan = cols; tr.appendChild(td); tbody.appendChild(tr);
+  }
+
+  var gainsBody = document.querySelector('#st-gains-table tbody');
+  var gains = S.top_daily_gains || [];
+  if (!gains.length) {
+    emptyRow(gainsBody, 5, 'No daily gains yet. The first ones appear after the second day of captures.');
+  } else gains.forEach(function (g, i) {
+    var v = byId[g.video_id] || { song: g.song, era: g.era };
+    var tr = el('tr');
+    tr.appendChild(el('td', 'st-rank', String(i + 1)));
+    tr.appendChild(mvCell(v));
+    tr.appendChild(el('td', 'st-hide-sm', v.era));
+    var dateTd = el('td', 'st-date', fmtDate(g.date));
+    dateTd.appendChild(el('span', 'st-hide-sm', ' ' + g.date.slice(0, 4)));
+    tr.appendChild(dateTd);
+    tr.appendChild(el('td', 'st-num ' + (g.daily_view_gain < 0 ? 'st-gain-neg' : 'st-gain-pos'), fmtSigned(g.daily_view_gain)));
+    gainsBody.appendChild(tr);
+  });
+
+  var allBody = document.querySelector('#st-all-table tbody');
+  videos.slice().sort(function (a, b) {
+    return ((latest[b.video_id] || {}).view_count || 0) - ((latest[a.video_id] || {}).view_count || 0);
+  }).forEach(function (v) {
+    var l = latest[v.video_id] || {};
+    var gained = lastValue(seriesFor(v.video_id, 'gained'));
+    var tr = el('tr');
+    tr.appendChild(mvCell(v));
+    tr.appendChild(el('td', 'st-hide-sm', v.era));
+    tr.appendChild(el('td', 'st-num', fmtFull(l.view_count)));
+    tr.appendChild(el('td', 'st-num st-hide-sm', fmtFull(l.like_count)));
+    tr.appendChild(el('td', 'st-num st-hide-sm', fmtFull(l.comment_count)));
+    tr.appendChild(el('td', 'st-num', multiDay && gained ? fmtSigned(gained.v) : '—'));
+    allBody.appendChild(tr);
+  });
+
+  render();
 }());
 
 </script>
