@@ -1,0 +1,895 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "kI6YK8M1LGdJ4_aXRpcYMn5SWFI",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "biN2fGHoCgvhCpe1Hdm4cJ9bckQ",
+      "id": "js1CtxSY38I",
+      "snippet": {
+        "publishedAt": "2022-07-21T15:00:14Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) 'Attention' Official MV",
+        "description": "NewJeans (뉴진스) 'Attention' Official MV\n\nOFFICIAL WEBSITE https://newjeans.kr/\n\nProducer: MIN HEE JIN\nMusic Video Director: Heewon Shin\n\nⓒ 2022 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR/\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\n\n#NewJeans #뉴진스\n#Attention #New_Jeans\n#NJ_1st_EP_Album #WeareNewJeans\n#ADOR #어도어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/js1CtxSY38I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/js1CtxSY38I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/js1CtxSY38I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/js1CtxSY38I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/js1CtxSY38I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": [
+          "HYBE",
+          "HYBE LABELS",
+          "하이브",
+          "하이브레이블즈"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "NewJeans (뉴진스) 'Attention' Official MV",
+          "description": "NewJeans (뉴진스) 'Attention' Official MV\n\nOFFICIAL WEBSITE https://newjeans.kr/\n\nProducer: MIN HEE JIN\nMusic Video Director: Heewon Shin\n\nⓒ 2022 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR/\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\n\n#NewJeans #뉴진스\n#Attention #New_Jeans\n#NJ_1st_EP_Album #WeareNewJeans\n#ADOR #어도어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "84330185",
+        "likeCount": "1896705",
+        "favoriteCount": "0",
+        "commentCount": "48575"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "QEuPECvtxDw1sDLEt6HGw1dOBus",
+      "id": "11cta61wi0g",
+      "snippet": {
+        "publishedAt": "2022-08-18T09:00:01Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) 'Hype Boy' Official MV (Performance ver.1)",
+        "description": "NewJeans (뉴진스) 'Hype Boy' Official MV (Performance ver.1)\n\nProducer: MIN HEE JIN\nMusic Video Director: Dongle Shin\n\nⓒ 2022 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87  \nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\n\n#NewJeans #뉴진스\n#HypeBoy #NewJeans_HypeBoy\n#NewJeans_1st_EP #WeareNewJeans\n#ADOR #어도어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/11cta61wi0g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/11cta61wi0g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/11cta61wi0g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/11cta61wi0g/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/11cta61wi0g/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": [
+          "HYBE",
+          "HYBE LABELS",
+          "하이브",
+          "하이브레이블즈"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "NewJeans (뉴진스) 'Hype Boy' Official MV (Performance ver.1)",
+          "description": "NewJeans (뉴진스) 'Hype Boy' Official MV (Performance ver.1)\n\nProducer: MIN HEE JIN\nMusic Video Director: Dongle Shin\n\nⓒ 2022 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87  \nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\n\n#NewJeans #뉴진스\n#HypeBoy #NewJeans_HypeBoy\n#NewJeans_1st_EP #WeareNewJeans\n#ADOR #어도어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "257696278",
+        "likeCount": "1822811",
+        "favoriteCount": "0",
+        "commentCount": "28425"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "FNcclZB313aJ_tEeCEfW0jCU578",
+      "id": "tVIXY14aJms",
+      "snippet": {
+        "publishedAt": "2022-07-24T15:00:02Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) 'Hurt' Official MV",
+        "description": "NewJeans (뉴진스) 'Hurt' Official MV\n\nOFFICIAL WEBSITE https://newjeans.kr/\n\nProducer: MIN HEE JIN \nMusic Video Director: Heewon Shin \n\nⓒ 2022 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR/\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\n\n#NewJeans #뉴진스\n#Hurt #NewJeans_Hurt\n#NJ_1st_EP_Album #WeareNewJeans\n#ADOR #어도어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tVIXY14aJms/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tVIXY14aJms/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tVIXY14aJms/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/tVIXY14aJms/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/tVIXY14aJms/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": [
+          "HYBE",
+          "HYBE LABELS",
+          "하이브",
+          "하이브레이블즈"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "NewJeans (뉴진스) 'Hurt' Official MV",
+          "description": "NewJeans (뉴진스) 'Hurt' Official MV\n\nOFFICIAL WEBSITE https://newjeans.kr/\n\nProducer: MIN HEE JIN \nMusic Video Director: Heewon Shin \n\nⓒ 2022 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR/\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\n\n#NewJeans #뉴진스\n#Hurt #NewJeans_Hurt\n#NJ_1st_EP_Album #WeareNewJeans\n#ADOR #어도어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "61194331",
+        "likeCount": "921979",
+        "favoriteCount": "0",
+        "commentCount": "18272"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Ubl2b7Ut6s_T465sEhud4lUPr9A",
+      "id": "VOmIplFAGeg",
+      "snippet": {
+        "publishedAt": "2022-08-01T08:58:12Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) 'Cookie' Official MV",
+        "description": "NewJeans (뉴진스) 'Cookie' Official MV\n\nProducer: MIN HEE JIN \nMusic Video Director: Dongle Shin\n\nⓒ 2022 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87  \nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr/\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\n\n#NewJeans #뉴진스\n#Cookie #NewJeans_Cookie\n#NewJeans_1st_EP #WeareNewJeans\n#ADOR #어도어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VOmIplFAGeg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VOmIplFAGeg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VOmIplFAGeg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/VOmIplFAGeg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/VOmIplFAGeg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": [
+          "HYBE",
+          "HYBE LABELS",
+          "하이브",
+          "하이브레이블즈"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "NewJeans (뉴진스) 'Cookie' Official MV",
+          "description": "NewJeans (뉴진스) 'Cookie' Official MV\n\nProducer: MIN HEE JIN \nMusic Video Director: Dongle Shin\n\nⓒ 2022 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87  \nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr/\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\n\n#NewJeans #뉴진스\n#Cookie #NewJeans_Cookie\n#NewJeans_1st_EP #WeareNewJeans\n#ADOR #어도어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "149994858",
+        "likeCount": "1557690",
+        "favoriteCount": "0",
+        "commentCount": "43711"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "nsW43qddTbAKGxzr53pi8uR6PAk",
+      "id": "pSUydWEqKwE",
+      "snippet": {
+        "publishedAt": "2022-12-19T09:00:03Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) 'Ditto' Official MV (side A)",
+        "description": "Producer: MIN HEE JIN\nMusic Video Director: Wooseok Shin (DOLPHINERS FILM)\n\n\nⓒ 2022 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87  \nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #뉴진스\n#NewJeans_OMG #NewJeans_Ditto\n#NewJeans_of_Winter\n#ADOR #어도어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pSUydWEqKwE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pSUydWEqKwE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pSUydWEqKwE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/pSUydWEqKwE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/pSUydWEqKwE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": [
+          "HYBE",
+          "HYBE LABELS",
+          "하이브",
+          "하이브레이블즈"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "NewJeans (뉴진스) 'Ditto' Official MV (side A)",
+          "description": "Producer: MIN HEE JIN\nMusic Video Director: Wooseok Shin (DOLPHINERS FILM)\n\n\nⓒ 2022 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87  \nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #뉴진스\n#NewJeans_OMG #NewJeans_Ditto\n#NewJeans_of_Winter\n#ADOR #어도어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "67374012",
+        "likeCount": "1736084",
+        "favoriteCount": "0",
+        "commentCount": "45180"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "fl0BcqRvD2k8KyczQU_u1xtg_7E",
+      "id": "_ZAgIHmHLdc",
+      "snippet": {
+        "publishedAt": "2023-01-02T09:00:00Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) 'OMG' Official MV",
+        "description": "NewJeans (뉴진스) 'OMG' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Wooseok Shin (DOLPHINERS FILM)\n\nⓒ 2023 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87  \nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #뉴진스\n#NewJeans_OMG #NewJeans_Ditto\n#Year_of_NewJeans\n#ADOR #어도어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_ZAgIHmHLdc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_ZAgIHmHLdc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_ZAgIHmHLdc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_ZAgIHmHLdc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_ZAgIHmHLdc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": [
+          "HYBE",
+          "HYBE LABELS",
+          "하이브",
+          "하이브레이블즈"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "NewJeans (뉴진스) 'OMG' Official MV",
+          "description": "NewJeans (뉴진스) 'OMG' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Wooseok Shin (DOLPHINERS FILM)\n\nⓒ 2023 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87  \nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #뉴진스\n#NewJeans_OMG #NewJeans_Ditto\n#Year_of_NewJeans\n#ADOR #어도어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "44078460",
+        "likeCount": "1597788",
+        "favoriteCount": "0",
+        "commentCount": "146176"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "9rrdTm0KA0vrN1-dY0HZaywuEe0",
+      "id": "ArmDp-zijuc",
+      "snippet": {
+        "publishedAt": "2023-07-07T03:58:10Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) 'Super Shy' Official MV",
+        "description": "NewJeans (뉴진스) 'Super Shy' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Heewon Shin\n\n0:00 Super Shy \n1:44 Join the #ImSuperShy challenge \n2:11 NewJeans \n\n© 2023 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#Time_to_NewJeans\n#NewJeans #뉴진스 #NewJeans_GetUp\n#NewJeans_SuperShy\n#ADOR #어도어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ArmDp-zijuc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ArmDp-zijuc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ArmDp-zijuc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ArmDp-zijuc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ArmDp-zijuc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": [
+          "HYBE",
+          "HYBE LABELS",
+          "하이브",
+          "하이브레이블즈"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "NewJeans (뉴진스) 'Super Shy' Official MV",
+          "description": "NewJeans (뉴진스) 'Super Shy' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Heewon Shin\n\n0:00 Super Shy \n1:44 Join the #ImSuperShy challenge \n2:11 NewJeans \n\n© 2023 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#Time_to_NewJeans\n#NewJeans #뉴진스 #NewJeans_GetUp\n#NewJeans_SuperShy\n#ADOR #어도어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "304737921",
+        "likeCount": "3200323",
+        "favoriteCount": "0",
+        "commentCount": "71243"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "yKoMdJUtrEI9-ZJWiZINmqYxpEc",
+      "id": "kcelgrGY1h8",
+      "snippet": {
+        "publishedAt": "2023-07-06T15:00:01Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) 'New Jeans' Official MV",
+        "description": "NewJeans (뉴진스) 'New Jeans' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Youngeum Lee\n\nTHE POWERPUFF GIRLS and all related characters and elements © & ™ Cartoon Network. (s23) \n© 2023 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#Time_to_NewJeans\n#NewJeans #뉴진스 #NewJeans_GetUp\n#NewJeans_NewJeans\n#ADOR #어도어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kcelgrGY1h8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kcelgrGY1h8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kcelgrGY1h8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/kcelgrGY1h8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/kcelgrGY1h8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": [
+          "HYBE",
+          "HYBE LABELS",
+          "하이브",
+          "하이브레이블즈"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "NewJeans (뉴진스) 'New Jeans' Official MV",
+          "description": "NewJeans (뉴진스) 'New Jeans' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Youngeum Lee\n\nTHE POWERPUFF GIRLS and all related characters and elements © & ™ Cartoon Network. (s23) \n© 2023 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#Time_to_NewJeans\n#NewJeans #뉴진스 #NewJeans_GetUp\n#NewJeans_NewJeans\n#ADOR #어도어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "44403152",
+        "likeCount": "1360254",
+        "favoriteCount": "0",
+        "commentCount": "29525"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "_sr34-SkQu1IVUT72VzU2NZ4QNU",
+      "id": "jOTfBlKSQYY",
+      "snippet": {
+        "publishedAt": "2023-07-21T03:58:10Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) 'ETA' Official MV",
+        "description": "NewJeans (뉴진스) 'ETA' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Wooseok Shin\n\nIn collaboration with Apple, this music video was entirely shot on iPhone 14 Pro.\n\n© 2023 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #ETA #ShotOniPhone\n#광고 #Time_to_NewJeans\n#뉴진스 #NewJeans_GetUp\n#NewJeans_ETA #iPhone14Pro #Apple \n#ADOR #어도어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jOTfBlKSQYY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jOTfBlKSQYY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jOTfBlKSQYY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jOTfBlKSQYY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/jOTfBlKSQYY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": [
+          "HYBE",
+          "HYBE LABELS",
+          "하이브",
+          "하이브레이블즈"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "NewJeans (뉴진스) 'ETA' Official MV",
+          "description": "NewJeans (뉴진스) 'ETA' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Wooseok Shin\n\nIn collaboration with Apple, this music video was entirely shot on iPhone 14 Pro.\n\n© 2023 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #ETA #ShotOniPhone\n#광고 #Time_to_NewJeans\n#뉴진스 #NewJeans_GetUp\n#NewJeans_ETA #iPhone14Pro #Apple \n#ADOR #어도어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "122872703",
+        "likeCount": "1598177",
+        "favoriteCount": "0",
+        "commentCount": "40256"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "p-4gMDhYMoocdmpKafWxFhWIt2E",
+      "id": "zsYSSVoQnP4",
+      "snippet": {
+        "publishedAt": "2023-07-19T15:00:01Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) 'Cool With You' Official MV (side A)",
+        "description": "NewJeans (뉴진스) 'Cool With You' Official MV (side A)\n\nProducer: MIN HEE JIN\nMusic Video Director: Wooseok Shin\n\n© 2023 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#Time_to_NewJeans\n#NewJeans #뉴진스 #NewJeans_GetUp\n#NewJeans_CoolWithYou\n#ADOR #어도어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zsYSSVoQnP4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zsYSSVoQnP4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zsYSSVoQnP4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zsYSSVoQnP4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zsYSSVoQnP4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": [
+          "HYBE",
+          "HYBE LABELS",
+          "하이브",
+          "하이브레이블즈"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "NewJeans (뉴진스) 'Cool With You' Official MV (side A)",
+          "description": "NewJeans (뉴진스) 'Cool With You' Official MV (side A)\n\nProducer: MIN HEE JIN\nMusic Video Director: Wooseok Shin\n\n© 2023 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#Time_to_NewJeans\n#NewJeans #뉴진스 #NewJeans_GetUp\n#NewJeans_CoolWithYou\n#ADOR #어도어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "21358104",
+        "likeCount": "720627",
+        "favoriteCount": "0",
+        "commentCount": "15655"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "uTBK-5aFgrkpI7waO8qNO6HQTPE",
+      "id": "dJdqn5v4Dkw",
+      "snippet": {
+        "publishedAt": "2023-07-25T15:00:02Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) 'ASAP' Official MV",
+        "description": "NewJeans (뉴진스) 'ASAP' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Jakyoung Kim\n\n© 2023 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#Time_to_NewJeans\n#NewJeans #뉴진스 #NewJeans_GetUp\n#NewJeans_ASAP \n#ADOR #어도어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dJdqn5v4Dkw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dJdqn5v4Dkw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dJdqn5v4Dkw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dJdqn5v4Dkw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dJdqn5v4Dkw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": [
+          "HYBE",
+          "HYBE LABELS",
+          "하이브",
+          "하이브레이블즈"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "NewJeans (뉴진스) 'ASAP' Official MV",
+          "description": "NewJeans (뉴진스) 'ASAP' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Jakyoung Kim\n\n© 2023 ADOR. All Rights Reserved.\n\nConnect with NewJeans\n\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#Time_to_NewJeans\n#NewJeans #뉴진스 #NewJeans_GetUp\n#NewJeans_ASAP \n#ADOR #어도어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "40636657",
+        "likeCount": "1015040",
+        "favoriteCount": "0",
+        "commentCount": "23238"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "O__DkI79mlZELXbbcAlFGamrs8c",
+      "id": "ft70sAYrFyY",
+      "snippet": {
+        "publishedAt": "2024-04-26T15:00:01Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) 'Bubble Gum' Official MV",
+        "description": "NewJeans (뉴진스) 'Bubble Gum' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Youngeum Lee\n\n© 2024 ADOR. All Rights Reserved.\n\nConnect with NewJeans\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #뉴진스 \n#NewJeans_BubbleGum #NewJeans_HowSweet\n#NewJeans_is_Everywhere\n#ADOR #어도어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ft70sAYrFyY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ft70sAYrFyY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ft70sAYrFyY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ft70sAYrFyY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ft70sAYrFyY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": [
+          "HYBE",
+          "HYBE LABELS",
+          "하이브",
+          "하이브레이블즈"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "NewJeans (뉴진스) 'Bubble Gum' Official MV",
+          "description": "NewJeans (뉴진스) 'Bubble Gum' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Youngeum Lee\n\n© 2024 ADOR. All Rights Reserved.\n\nConnect with NewJeans\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #뉴진스 \n#NewJeans_BubbleGum #NewJeans_HowSweet\n#NewJeans_is_Everywhere\n#ADOR #어도어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "88724077",
+        "likeCount": "1640145",
+        "favoriteCount": "0",
+        "commentCount": "106544"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "6XAVcA8Zxc3pgbKzp3Kg0ML1m-8",
+      "id": "Q3K0TOvTOno",
+      "snippet": {
+        "publishedAt": "2024-05-24T07:00:00Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) 'How Sweet' Official MV",
+        "description": "NewJeans (뉴진스) 'How Sweet' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Heewon Shin\n\n© 2024 ADOR. All Rights Reserved.\n\nConnect with NewJeans\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #뉴진스\n#HowSweet #NewJeans_HowSweet\n#NewJeans_is_Everywhere\n#광고 #CokeStudio #RealMagic\n#ADOR #어도어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Q3K0TOvTOno/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Q3K0TOvTOno/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Q3K0TOvTOno/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Q3K0TOvTOno/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Q3K0TOvTOno/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": [
+          "HYBE",
+          "HYBE LABELS",
+          "하이브",
+          "하이브레이블즈"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "NewJeans (뉴진스) 'How Sweet' Official MV",
+          "description": "NewJeans (뉴진스) 'How Sweet' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Heewon Shin\n\n© 2024 ADOR. All Rights Reserved.\n\nConnect with NewJeans\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #뉴진스\n#HowSweet #NewJeans_HowSweet\n#NewJeans_is_Everywhere\n#광고 #CokeStudio #RealMagic\n#ADOR #어도어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "82928452",
+        "likeCount": "1160375",
+        "favoriteCount": "0",
+        "commentCount": "78979"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "0hh34o7IVS30IsRs_CQd7W7gXZE",
+      "id": "ZncbtRo7RXs",
+      "snippet": {
+        "publishedAt": "2024-06-21T04:00:01Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) ‘Supernatural’ Official MV (Part.1)",
+        "description": "NewJeans (뉴진스) ‘Supernatural’ Official MV (Part.1)\n\nProducer: MIN HEE JIN\nMusic Video Director: Shin Dongle\n\n© 2024 ADOR. All Rights Reserved.\n\nConnect with NewJeans\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #뉴진스\n#NewJeans_Supernatural #NewJeans_RightNow \n#NewJeans_is_Everywhere\n#ADOR #어도어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZncbtRo7RXs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZncbtRo7RXs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZncbtRo7RXs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ZncbtRo7RXs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ZncbtRo7RXs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": [
+          "HYBE",
+          "HYBE LABELS",
+          "하이브",
+          "하이브레이블즈"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "NewJeans (뉴진스) ‘Supernatural’ Official MV (Part.1)",
+          "description": "NewJeans (뉴진스) ‘Supernatural’ Official MV (Part.1)\n\nProducer: MIN HEE JIN\nMusic Video Director: Shin Dongle\n\n© 2024 ADOR. All Rights Reserved.\n\nConnect with NewJeans\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #뉴진스\n#NewJeans_Supernatural #NewJeans_RightNow \n#NewJeans_is_Everywhere\n#ADOR #어도어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "106497933",
+        "likeCount": "933912",
+        "favoriteCount": "0",
+        "commentCount": "46467"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "gjZFdzQydjLc4jeoQ2Js2gOjzqs",
+      "id": "m6pTbEz4w3o",
+      "snippet": {
+        "publishedAt": "2024-06-16T15:00:00Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) 'Right Now' Official MV",
+        "description": "NewJeans (뉴진스) 'Right Now' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Youngeum Lee\n\nTHE POWERPUFF GIRLS and all related characters and elements © & ™ Cartoon Network. (s24) © 2024 ADOR. All Rights Reserved.\nNewJeans X MURAKAMI ©2024 Takashi Murakami/Kaikai Kiki Co., Ltd. All Rights Reserved. / ADOR Co., Ltd. All Rights Reserved.\n\nConnect with NewJeans\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #뉴진스\n#NewJeans_RightNow #NewJeans_Supernatural\n#NewJeans_is_Everywhere\n#ADOR #어도어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/m6pTbEz4w3o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/m6pTbEz4w3o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/m6pTbEz4w3o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/m6pTbEz4w3o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/m6pTbEz4w3o/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": [
+          "HYBE",
+          "HYBE LABELS",
+          "하이브",
+          "하이브레이블즈"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "NewJeans (뉴진스) 'Right Now' Official MV",
+          "description": "NewJeans (뉴진스) 'Right Now' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Youngeum Lee\n\nTHE POWERPUFF GIRLS and all related characters and elements © & ™ Cartoon Network. (s24) © 2024 ADOR. All Rights Reserved.\nNewJeans X MURAKAMI ©2024 Takashi Murakami/Kaikai Kiki Co., Ltd. All Rights Reserved. / ADOR Co., Ltd. All Rights Reserved.\n\nConnect with NewJeans\nPHONING https://phoning.onelink.me/KG15/n7452q87\nOFFICIAL YOUTUBE https://www.youtube.com/c/NewJeans_official\nOFFICIAL WEBSITE https://newjeans.kr\nOFFICIAL INSTAGRAM https://www.instagram.com/newjeans_official\nOFFICIAL TWITTER https://twitter.com/NewJeans_ADOR\nOFFICIAL TIKTOK https://www.tiktok.com/@newjeans_official\nOFFICIAL WEVERSE https://weverse.io/newjeansofficial\nOFFICIAL FACEBOOK https://www.facebook.com/official.newjeans\nOFFICIAL JAPAN TWITTER https://twitter.com/@NewJeans_jp\nOFFICIAL WEIBO  https://weibo.com/NewJeansADOR\nOFFICIAL BILIBILI https://space.bilibili.com/3493092783032940\n\n#NewJeans #뉴진스\n#NewJeans_RightNow #NewJeans_Supernatural\n#NewJeans_is_Everywhere\n#ADOR #어도어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "29383656",
+        "likeCount": "675576",
+        "favoriteCount": "0",
+        "commentCount": "31226"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 15,
+    "resultsPerPage": 15
+  }
+}
